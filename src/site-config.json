@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "B & D Handyman Services",
+    "phone": "+17573779689",
+    "category": "handyman service",
+    "city": "Virginia Beach",
+    "state": "VA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-red-charge",
+      "categoryGroup": "roofing",
+      "name": "Red Charge",
+      "recipeFile": "roofing/red-charge.astro",
+      "colors": {
+        "primary": "#1F3A56",
+        "primaryDark": "#152B42",
+        "primaryLight": "#D0DCE8",
+        "secondary": "#2B4C6F",
+        "accent": "#DC143C",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1F3A56",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Handyman Heroes: Done Right, Right Now.",
+      "heroSubline": "From leaky faucets to full renovations, B & D Handyman Services tackles your toughest jobs. Serving Virginia Beach and surrounding areas with pride.",
+      "aboutTitle": "Built on Trust, Driven by Results",
+      "aboutText": [
+        "B & D Handyman Services started with a simple mission: provide reliable, high-quality handyman services to our neighbors in Virginia Beach. We saw a need for skilled professionals who not only get the job done but also treat every home with respect.",
+        "Our approach is straightforward. We listen to your needs, provide clear and honest estimates, and deliver exceptional workmanship. We believe in open communication and ensuring you're completely satisfied with the final result. We're not just fixing things; we're building lasting relationships.",
+        "We're proud to be a part of the Virginia Beach community. We actively support local initiatives and believe in giving back to the place we call home. When you choose B & D Handyman Services, you're supporting a local business that cares about its community."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Professionals",
+          "description": "Our team consists of skilled and experienced handymen who are experts in their respective trades."
+        },
+        {
+          "title": "Reliable & On-Time",
+          "description": "We understand your time is valuable. We arrive on time and complete projects efficiently, minimizing disruption to your daily life."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No hidden fees or surprises. We provide clear, detailed estimates before starting any work."
+        },
+        {
+          "title": "Satisfaction Guaranteed",
+          "description": "We stand behind our work. If you're not completely satisfied, we'll make it right."
+        }
+      ],
+      "ctaHeadline": "Get Your Free Estimate Today!",
+      "ctaSubline": "Let B & D Handyman Services handle your home repairs and improvements. Contact us now to schedule a consultation."
+    },
+    "services": [
+      {
+        "slug": "general-handyman-services",
+        "name": "General Handyman Services",
+        "shortDescription": "Your go-to solution for all those nagging home repairs.",
+        "description": "From minor repairs to major renovations, B & D Handyman Services offers a comprehensive range of general handyman services to keep your home in top condition. We understand the unique challenges that Virginia Beach homes face, from salt air corrosion to hurricane preparedness. Whether it's fixing drywall damaged by coastal humidity or securing your property against storm damage, we've got you covered.\n\nOur experienced team can tackle any task, big or small. We handle everything from carpentry and painting to plumbing and electrical repairs. We're also skilled in installing fixtures, assembling furniture, and performing routine maintenance to prevent costly problems down the road. Living near the ocean has its perks, but it also means your home needs extra care. Let us help you protect your investment.\n\nWe prioritize quality workmanship and customer satisfaction. We use only the best materials and techniques to ensure lasting results. Our goal is to provide you with peace of mind, knowing that your home is in good hands. We take pride in our attention to detail and our commitment to exceeding your expectations. From Oceanfront bungalows to Town Center condos, we're ready to serve your handyman needs.",
+        "process": [
+          "Step 1: Initial Consultation: We discuss your needs and assess the scope of the project.",
+          "Step 2: Detailed Estimate: We provide a clear and transparent estimate with no hidden fees.",
+          "Step 3: Expert Service: Our skilled team completes the work efficiently and professionally.",
+          "Step 4: Final Inspection: We ensure your complete satisfaction with the finished product."
+        ],
+        "benefits": [
+          "Save time and money on home repairs.",
+          "Protect your home from further damage.",
+          "Enhance the value and appeal of your property.",
+          "Enjoy peace of mind knowing your home is in good hands."
+        ],
+        "faq": [
+          {
+            "question": "What types of handyman services do you offer?",
+            "answer": "We offer a wide range of services, including carpentry, painting, plumbing, electrical repairs, drywall repair, and more. If you have a specific need, just ask!"
+          },
+          {
+            "question": "How much do your services cost?",
+            "answer": "The cost of our services varies depending on the scope and complexity of the project. We provide free estimates to ensure you know the cost upfront."
+          },
+          {
+            "question": "Are you licensed and insured?",
+            "answer": "Yes, B & D Handyman Services is fully licensed and insured for your protection and peace of mind."
+          }
+        ]
+      },
+      {
+        "slug": "carpentry-services",
+        "name": "Carpentry Services",
+        "shortDescription": "Expert carpentry for repairs, renovations, and custom projects.",
+        "description": "B & D Handyman Services provides expert carpentry services throughout Virginia Beach. With our mix of older homes and new construction, carpentry needs vary widely. We handle everything from repairing weather-beaten decks on the Oceanfront to installing custom trim in Town Center condos. Our experienced carpenters understand the nuances of working with different wood types and construction styles.\n\nWe offer a full range of carpentry services, including framing, trim work, door and window installation, deck repair, and custom woodworking. We pay close attention to detail, ensuring that every project is completed to the highest standards of quality. We understand that carpentry is not just about cutting and joining wood; it's about creating beautiful and functional spaces that enhance your home.\n\nWhether you need a simple repair or a complete renovation, we'll work closely with you to bring your vision to life. We use only the best materials and techniques to ensure lasting results. We're committed to providing you with exceptional service and exceeding your expectations. We're ready to help with projects of any size in the Hampton Roads area.",
+        "process": [
+          "Step 1: Detailed Consultation: We discuss your carpentry needs and assess the project site.",
+          "Step 2: Custom Design (if needed): We create a custom design that meets your specific requirements.",
+          "Step 3: Skilled Craftsmanship: Our experienced carpenters execute the project with precision and care.",
+          "Step 4: Final Touches: We ensure every detail is perfect before completing the project."
+        ],
+        "benefits": [
+          "Enhance the beauty and functionality of your home.",
+          "Increase the value of your property.",
+          "Enjoy custom woodworking tailored to your specific needs.",
+          "Receive expert craftsmanship from experienced carpenters."
+        ],
+        "faq": [
+          {
+            "question": "Do you build custom decks?",
+            "answer": "Yes, we specialize in building custom decks designed to withstand the harsh coastal environment of Virginia Beach."
+          },
+          {
+            "question": "Can you repair my rotted wood trim?",
+            "answer": "Absolutely! We can replace rotted trim and protect it from future damage."
+          },
+          {
+            "question": "What types of wood do you use?",
+            "answer": "We use a variety of wood types, including pressure-treated lumber, cedar, and redwood, depending on the specific project requirements."
+          }
+        ]
+      },
+      {
+        "slug": "painting-services",
+        "name": "Painting Services",
+        "shortDescription": "Professional interior and exterior painting for a fresh, new look.",
+        "description": "B & D Handyman Services offers professional painting services to transform your home's interior and exterior. Living near the ocean in Virginia Beach means your paint job needs to stand up to salt air, humidity, and intense sunlight. We use high-quality paints and proven techniques to ensure a long-lasting and beautiful finish.\n\nOur experienced painters handle everything from surface preparation to final touch-ups. We take the time to properly prepare surfaces, including cleaning, sanding, and priming, to ensure optimal adhesion and durability. We also protect your furniture and belongings during the painting process.\n\nWhether you're looking to refresh your living room or completely transform your home's exterior, we'll work closely with you to select the perfect colors and finishes. We offer a wide range of painting services, including interior painting, exterior painting, cabinet painting, and more. We're committed to providing you with exceptional service and exceeding your expectations. We service all of Virginia Beach, from the North End to Sandbridge.",
+        "process": [
+          "Step 1: Color Consultation: We help you choose the perfect colors for your project.",
+          "Step 2: Surface Preparation: We thoroughly prepare surfaces to ensure optimal paint adhesion.",
+          "Step 3: Expert Painting: Our skilled painters apply paint with precision and care.",
+          "Step 4: Final Inspection: We ensure your complete satisfaction with the finished product."
+        ],
+        "benefits": [
+          "Enhance the beauty and value of your home.",
+          "Protect your home from the elements.",
+          "Create a fresh and inviting atmosphere.",
+          "Enjoy a professional finish that lasts for years."
+        ],
+        "faq": [
+          {
+            "question": "Do you offer color consultations?",
+            "answer": "Yes, we offer color consultations to help you choose the perfect colors for your home."
+          },
+          {
+            "question": "How long does it take to paint a house?",
+            "answer": "The time it takes to paint a house depends on the size and complexity of the project. We'll provide you with a realistic timeline during the estimate process."
+          },
+          {
+            "question": "What type of paint do you use?",
+            "answer": "We use high-quality paints from trusted brands that are specifically designed for the coastal environment of Virginia Beach."
+          }
+        ]
+      },
+      {
+        "slug": "plumbing-repairs",
+        "name": "Plumbing Repairs",
+        "shortDescription": "Reliable plumbing repairs for leaks, clogs, and more.",
+        "description": "B & D Handyman Services offers reliable plumbing repair services to address all your plumbing needs in Virginia Beach. From leaky faucets to clogged drains, we handle it all. We understand the importance of having a properly functioning plumbing system, and we're committed to providing you with prompt and efficient service.\n\nOur experienced plumbers are equipped to handle a wide range of plumbing repairs, including leak detection and repair, drain cleaning, toilet repair and replacement, faucet repair and replacement, and water heater repair and replacement. We use the latest tools and techniques to diagnose and resolve plumbing problems quickly and effectively.\n\nWe're committed to providing you with exceptional service and exceeding your expectations. We offer upfront pricing and stand behind our work. We respond quickly to emergency plumbing situations, minimizing damage and inconvenience. From Kempsville to Great Neck, we're ready to tackle your plumbing issues.",
+        "process": [
+          "Step 1: Problem Diagnosis: We accurately diagnose the plumbing issue.",
+          "Step 2: Transparent Estimate: We provide a clear and upfront estimate for the repair.",
+          "Step 3: Expert Repair: Our skilled plumbers perform the repair efficiently and effectively.",
+          "Step 4: System Testing: We test the system to ensure proper functionality."
+        ],
+        "benefits": [
+          "Prevent water damage and save money on your water bill.",
+          "Ensure a properly functioning plumbing system.",
+          "Receive prompt and reliable service from experienced plumbers.",
+          "Enjoy peace of mind knowing your plumbing is in good hands."
+        ],
+        "faq": [
+          {
+            "question": "Do you offer emergency plumbing services?",
+            "answer": "Yes, we offer 24/7 emergency plumbing services to address urgent plumbing issues."
+          },
+          {
+            "question": "How do I know if I have a water leak?",
+            "answer": "Signs of a water leak include unexplained increases in your water bill, water stains on walls or ceilings, and the sound of running water when no fixtures are in use."
+          },
+          {
+            "question": "Can you unclog my drain?",
+            "answer": "Yes, we use a variety of methods to unclog drains, including snaking and hydro jetting."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-services",
+        "name": "Electrical Services",
+        "shortDescription": "Safe and reliable electrical services for repairs, installations, and upgrades.",
+        "description": "B & D Handyman Services provides safe and reliable electrical services to meet all your electrical needs in Virginia Beach. Electrical work can be dangerous, so it's crucial to hire a qualified professional. Our experienced electricians are licensed and insured, and they adhere to the highest safety standards.\n\nWe offer a wide range of electrical services, including electrical repairs, electrical installations, electrical upgrades, and electrical inspections. Whether you need to fix a faulty outlet, install new lighting, or upgrade your electrical panel, we've got you covered.\n\nWe're committed to providing you with exceptional service and exceeding your expectations. We offer upfront pricing and stand behind our work. We prioritize safety and ensure that all electrical work is performed to code. From older homes near First Landing State Park to newer developments, we handle all types of electrical projects.",
+        "process": [
+          "Step 1: Thorough Assessment: We assess the electrical issue and identify the best solution.",
+          "Step 2: Detailed Estimate: We provide a clear and transparent estimate for the work.",
+          "Step 3: Safe and Expert Service: Our licensed electricians perform the work safely and efficiently.",
+          "Step 4: System Testing: We test the electrical system to ensure proper functionality and safety."
+        ],
+        "benefits": [
+          "Ensure the safety of your home and family.",
+          "Prevent electrical fires and other hazards.",
+          "Improve the functionality and efficiency of your electrical system.",
+          "Receive expert service from licensed and insured electricians."
+        ],
+        "faq": [
+          {
+            "question": "Are you licensed and insured?",
+            "answer": "Yes, B & D Handyman Services is fully licensed and insured to perform electrical work in Virginia Beach."
+          },
+          {
+            "question": "How often should I have my electrical system inspected?",
+            "answer": "It's recommended to have your electrical system inspected every 3-5 years, or more frequently if you have an older home."
+          },
+          {
+            "question": "What are the signs of an electrical problem?",
+            "answer": "Signs of an electrical problem include flickering lights, burning smells, and frequently tripping breakers."
+          }
+        ]
+      },
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Seamless drywall repair for holes, cracks, and water damage.",
+        "description": "B & D Handyman Services offers seamless drywall repair services to restore your walls to their original condition. Humidity in Virginia Beach can wreak havoc on drywall, leading to cracks, holes, and water damage. Our experienced drywall technicians can handle any type of drywall repair, from small nail holes to large sections of damaged drywall.\n\nWe use the latest techniques and materials to ensure a smooth and invisible repair. We carefully match the texture and finish of the existing drywall, so you won't even know there was a repair. We also take precautions to minimize dust and debris during the repair process.\n\nWhether you need to repair a small hole or replace a large section of drywall, we're committed to providing you with exceptional service and exceeding your expectations. We offer upfront pricing and stand behind our work. From the Oceanfront to the Chesapeake Bay, we're ready to tackle your drywall repair needs.",
+        "process": [
+          "Step 1: Damage Assessment: We assess the extent of the drywall damage.",
+          "Step 2: Precise Patching: We carefully patch the damaged area with new drywall.",
+          "Step 3: Seamless Finishing: We blend the patch seamlessly with the existing wall.",
+          "Step 4: Painting (Optional): We can paint the repaired area to match the surrounding color."
+        ],
+        "benefits": [
+          "Restore the appearance of your walls.",
+          "Prevent further damage from moisture and pests.",
+          "Increase the value of your home.",
+          "Enjoy a seamless and invisible repair."
+        ],
+        "faq": [
+          {
+            "question": "Can you match the texture of my existing drywall?",
+            "answer": "Yes, we specialize in matching the texture of existing drywall to ensure a seamless repair."
+          },
+          {
+            "question": "How long does it take to repair drywall?",
+            "answer": "The time it takes to repair drywall depends on the size and complexity of the damage. We'll provide you with a realistic timeline during the estimate process."
+          },
+          {
+            "question": "Do you offer painting services?",
+            "answer": "Yes, we offer painting services to complete the drywall repair process."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Virginia Beach",
+        "slug": "virginia-beach-va",
+        "state": "VA",
+        "content": "B & D Handyman Services is proud to serve the vibrant community of Virginia Beach, VA. From the Oceanfront to Town Center, and all the neighborhoods in between, we offer reliable and professional handyman services to homeowners and businesses alike. We understand the unique needs of Virginia Beach residents, from storm preparation to general home maintenance, and are committed to providing top-quality workmanship at competitive prices.\n\nWhether you need help with a leaky faucet, drywall repair, or a complete home renovation, B & D Handyman Services is here to help. We are licensed, insured, and dedicated to exceeding your expectations. Contact us today for a free estimate and experience the B & D Handyman Services difference.",
+        "localContext": "Virginia Beach is a coastal city known for its beautiful beaches, military presence, and family-friendly atmosphere.",
+        "nearbyAreas": [
+          "Norfolk",
+          "Chesapeake",
+          "Portsmouth"
+        ]
+      },
+      {
+        "city": "Norfolk",
+        "slug": "norfolk-va",
+        "state": "VA",
+        "content": "B & D Handyman Services extends its premier handyman services to the historic city of Norfolk, VA. We appreciate the unique architectural character of Norfolk's homes and businesses, from the historic Ghent district to the bustling downtown area. Our team is equipped to handle a wide range of projects, ensuring your property is well-maintained and aesthetically pleasing.\n\nWe offer a variety of services to meet your needs, from minor repairs to major renovations. Whether you're a homeowner, property manager, or business owner, B & D Handyman Services is your trusted partner for all your handyman needs in Norfolk. Let us help you keep your property in top condition.",
+        "localContext": "Norfolk is a major naval hub and home to a diverse population and thriving arts scene.",
+        "nearbyAreas": [
+          "Virginia Beach",
+          "Chesapeake",
+          "Portsmouth"
+        ]
+      },
+      {
+        "city": "Chesapeake",
+        "slug": "chesapeake-va",
+        "state": "VA",
+        "content": "B & D Handyman Services is dedicated to providing exceptional handyman services to the growing community of Chesapeake, VA. We understand the needs of Chesapeake homeowners, from maintaining their properties to improving their curb appeal. Our team is experienced in all aspects of home repair and maintenance, ensuring your home is in top condition.\n\nFrom small repairs to larger projects, B & D Handyman Services is here to help. We are committed to providing reliable, affordable, and high-quality services to our Chesapeake customers. Contact us today to learn more about how we can help you with your next home improvement project.",
+        "localContext": "Chesapeake is a large, suburban city known for its excellent schools and family-friendly environment.",
+        "nearbyAreas": [
+          "Virginia Beach",
+          "Norfolk",
+          "Suffolk"
+        ]
+      },
+      {
+        "city": "Portsmouth",
+        "slug": "portsmouth-va",
+        "state": "VA",
+        "content": "B & D Handyman Services is proud to serve the historic city of Portsmouth, VA. We appreciate the unique charm and character of Portsmouth's homes and businesses and are committed to providing top-quality handyman services to the community. Whether you need help with a small repair or a major renovation, we are here to help.\n\nWe offer a wide range of services to meet your needs, from carpentry to plumbing to electrical work. Our team is experienced, reliable, and dedicated to exceeding your expectations. Contact B & D Handyman Services today for a free estimate and let us help you keep your Portsmouth property in top condition.",
+        "localContext": "Portsmouth is a historic seaport city with a rich maritime heritage and a growing arts and culture scene.",
+        "nearbyAreas": [
+          "Norfolk",
+          "Chesapeake",
+          "Suffolk"
+        ]
+      },
+      {
+        "city": "Suffolk",
+        "slug": "suffolk-va",
+        "state": "VA",
+        "content": "B & D Handyman Services is pleased to offer its handyman services to the growing city of Suffolk, VA. As Suffolk expands, so does the need for reliable and professional home maintenance and repair services. We are here to provide those services to homeowners and businesses alike.\n\nWhether you need help with a leaky roof, a broken window, or a complete home renovation, B & D Handyman Services is here to help. We are committed to providing top-quality workmanship at competitive prices. Contact us today for a free estimate and experience the B & D Handyman Services difference.",
+        "localContext": "Suffolk is a large, primarily rural city known for its peanut production and historic downtown.",
+        "nearbyAreas": [
+          "Chesapeake",
+          "Portsmouth",
+          "Smithfield"
+        ]
+      },
+      {
+        "city": "Smithfield",
+        "slug": "smithfield-va",
+        "state": "VA",
+        "content": "B & D Handyman Services is happy to provide its services to the town of Smithfield, VA. Known for its ham and historical charm, Smithfield homes require careful attention to detail, something B & D Handyman Services takes pride in. We offer a variety of services to keep your home looking its best and functioning properly.\n\nFrom small repairs to larger projects, B & D Handyman Services is equipped for the task. We are committed to providing reliable, affordable, and high-quality services to our Smithfield customers. Contact us today to learn more about how we can help you with your next home improvement project.",
+        "localContext": "Smithfield is a charming town with a rich history, famous for its Smithfield ham.",
+        "nearbyAreas": [
+          "Suffolk",
+          "Newport News",
+          "Carrollton"
+        ]
+      },
+      {
+        "city": "Newport News",
+        "slug": "newport-news-va",
+        "state": "VA",
+        "content": "B & D Handyman Services is now serving Newport News, VA, providing reliable and efficient handyman services to homeowners and businesses. Newport News has a rich history and diverse architecture, and we tailor our services to meet the specific needs of this community. Whether it's repairs, installations, or general maintenance, we're here to help.\n\nOur team is dedicated to delivering quality workmanship and exceptional customer service. We understand the importance of maintaining your property and ensuring it remains in top condition. Contact us today for a free estimate and let us take care of your handyman needs in Newport News.",
+        "localContext": "Newport News is a city with a strong shipbuilding industry and notable historical sites.",
+        "nearbyAreas": [
+          "Hampton",
+          "Poquoson",
+          "Yorktown"
+        ]
+      },
+      {
+        "city": "Hampton",
+        "slug": "hampton-va",
+        "state": "VA",
+        "content": "B & D Handyman Services is excited to extend our services to Hampton, VA, offering top-notch handyman solutions for all your home and business needs. Hampton's coastal location and historic buildings require specialized care, which our skilled team is ready to provide. From routine maintenance to complex repairs, we ensure your property is well-maintained and looks its best.\n\nWe pride ourselves on our professionalism, reliability, and commitment to customer satisfaction. Whether you need help with renovations, repairs, or installations, B & D Handyman Services is your go-to handyman service in Hampton. Reach out to us today for a free consultation and let us help you with your next project.",
+        "localContext": "Hampton is a coastal city known for its rich history and as the site of NASA's Langley Research Center.",
+        "nearbyAreas": [
+          "Newport News",
+          "Poquoson",
+          "Yorktown"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Leaky Faucet Repair",
+        "text": "B & D Handyman Services was fantastic! Our kitchen faucet was leaking badly, and they came out the same day and fixed it quickly and efficiently. The plumber was professional and courteous. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "John K.",
+        "rating": 4,
+        "service": "Deck Repair",
+        "text": "Our deck needed some serious TLC after the winter. B & D Handyman Services replaced several rotted boards and reinforced the structure. The work was solid, and the price was fair. Would use them again.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Maria L.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "We hired B & D Handyman Services to paint our living room, and they did an amazing job. The painters were meticulous and paid attention to every detail. The color looks beautiful, and the room feels brand new.",
+        "date": "2024-09-01"
+      },
+      {
+        "name": "David S.",
+        "rating": 5,
+        "service": "Drywall Repair",
+        "text": "Had a large hole in my drywall from a leaky pipe. B & D Handyman Services patched it perfectly. You can't even tell there was ever any damage. Great service!",
+        "date": "2024-12-10"
+      },
+      {
+        "name": "Jessica P.",
+        "rating": 4,
+        "service": "Electrical Outlet Installation",
+        "text": "Needed a new electrical outlet installed in my home office. B & D Handyman Services was prompt and professional. The electrician was knowledgeable and completed the work quickly and safely.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Tom B.",
+        "rating": 5,
+        "service": "General Handyman Service",
+        "text": "Fixed a few things around our house that we had been putting off for months. Replaced some kitchen cabinet hardware and fixed a loose railing. Quick, easy, and affordable. Thanks!",
+        "date": "2025-02-28"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "B & D Handyman Services | Virginia Beach",
+        "description": "Reliable handyman services in Virginia Beach. Repairs, renovations, and more. Call today for a free estimate!"
+      },
+      "about": {
+        "title": "About B & D Handyman Services | Virginia Beach",
+        "description": "Learn more about B & D Handyman Services, serving Virginia Beach with quality and integrity. Experienced professionals."
+      },
+      "services": {
+        "title": "Handyman Services | B & D | Virginia Beach",
+        "description": "Comprehensive handyman services in Virginia Beach. Carpentry, painting, plumbing, electrical, and more!"
+      },
+      "contact": {
+        "title": "Contact B & D Handyman Services | Virginia Beach",
+        "description": "Contact B & D Handyman Services for reliable handyman services in Virginia Beach. Get a free estimate today!"
+      },
+      "reviews": {
+        "title": "B & D Handyman Services Reviews | Virginia Beach",
+        "description": "Read reviews for B & D Handyman Services in Virginia Beach. See what our satisfied customers are saying!"
+      },
+      "service-areas": {
+        "title": "Service Areas | B & D Handyman | Virginia Beach",
+        "description": "B & D Handyman Services provides services in Virginia Beach and surrounding areas. Check our list of service locations."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "general-handyman-services": "/images/service-general-handyman-services.webp",
+      "carpentry-services": "/images/service-carpentry-services.webp",
+      "painting-services": "/images/service-painting-services.webp",
+      "plumbing-repairs": "/images/service-plumbing-repairs.webp",
+      "electrical-services": "/images/service-electrical-services.webp",
+      "drywall-repair": "/images/service-drywall-repair.webp"
+    },
+    "servicesResponsive": {
+      "general-handyman-services": {
+        "src": "/images/service-general-handyman-services.webp",
+        "srcset": "/images/service-general-handyman-services-400w.webp 400w, /images/service-general-handyman-services-800w.webp 800w, /images/service-general-handyman-services-1200w.webp 1200w, /images/service-general-handyman-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "carpentry-services": {
+        "src": "/images/service-carpentry-services.webp",
+        "srcset": "/images/service-carpentry-services-400w.webp 400w, /images/service-carpentry-services-800w.webp 800w, /images/service-carpentry-services-1200w.webp 1200w, /images/service-carpentry-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "painting-services": {
+        "src": "/images/service-painting-services.webp",
+        "srcset": "/images/service-painting-services-400w.webp 400w, /images/service-painting-services-800w.webp 800w, /images/service-painting-services-1200w.webp 1200w, /images/service-painting-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "plumbing-repairs": {
+        "src": "/images/service-plumbing-repairs.webp",
+        "srcset": "/images/service-plumbing-repairs-400w.webp 400w, /images/service-plumbing-repairs-800w.webp 800w, /images/service-plumbing-repairs-1200w.webp 1200w, /images/service-plumbing-repairs.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-services": {
+        "src": "/images/service-electrical-services.webp",
+        "srcset": "/images/service-electrical-services-400w.webp 400w, /images/service-electrical-services-800w.webp 800w, /images/service-electrical-services-1200w.webp 1200w, /images/service-electrical-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
